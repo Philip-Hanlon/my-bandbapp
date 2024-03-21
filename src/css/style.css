@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+ 
+h1 {
+    margin: 0;
+}
+ 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.property-img {
+    max-width: 25%;
+}
+.profile-image {
+    border-radius: 50%; 
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+}   
+
+.sidebar-description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Light background color */
+    border: 1px solid #ccc; /* Light border color */
+    box-shadow: 2px 2px 5px rgba(255, 0, 255, 0.5); /* Shadow effect */
+}
